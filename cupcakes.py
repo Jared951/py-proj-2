@@ -37,10 +37,6 @@ class RegularCupcake(Cupcake):
     def calculate_price(self, quantity):
         return quantity * self.price
     
-# class MiniCupcake(Mini):
-#     def calculate_price(self, quantity):
-#         return quantity * self.price
-    
 class Large(Cupcake):
     def calculate_price(self, quantity):
         return quantity * self.price
